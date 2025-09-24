@@ -25,6 +25,7 @@ const db = new Sequelize(env.DB_NAME, env.USER_DB, env.PASSWORD_DB, {
   },
 });
 
+
 // Función para probar la conexión
 async function testConnection() {
   try {
